@@ -7,8 +7,8 @@ import java.io.IOException;  // java gorsel kutuphanesi
 String Port = "/dev/tty.usbmodem1411"; //Arduino port
 Serial myPort; 
 
-String aci="";
-String mesafe="";
+String aci="";              //degiskenlerin Tanımlanması
+String mesafe="";           
 String veri="";
 String nesne;
 
@@ -19,7 +19,7 @@ int index1=0;
 int index2=0;
 
 PFont orcFont;
-
+//fonksiyonların oluşturulması
 void setup() {
   
  size (1250, 650); //resolution
